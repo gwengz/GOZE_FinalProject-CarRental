@@ -5,6 +5,19 @@ Public Class Form1
     Dim COMMAND As MySqlCommand
 
     Private Sub btnAdd_Click(sender As Object, e As EventArgs) Handles btnAdd.Click
+
+        If String.IsNullOrWhiteSpace(txtCarModel.Text) Then
+            MessageBox.Show("Please enter a valid Car Model.", "Input Required", MessageBoxButtons.OK, MessageBoxIcon.Warning)
+            txtCarModel.Focus()
+            Exit Sub
+        End If
+
+        If String.IsNullOrWhiteSpace(txtRenterName.Text) Then
+            MessageBox.Show("Please enter the Renter Name.", "Input Required", MessageBoxButtons.OK, MessageBoxIcon.Warning)
+            txtRenterName.Focus()
+            Exit Sub
+        End If
+
         Dim query As String = "INSERT INTO car_rental 
                            (car_model, renter_name, start_date, end_date)
                            VALUES (@car_model, @renter_name, @start_date, @end_date);"
@@ -13,7 +26,6 @@ Public Class Form1
             Using conn As New MySqlConnection("server=localhost;userid=root;password=root;database=car_rental;")
                 conn.Open()
                 Using cmd As New MySqlCommand(query, conn)
-
                     cmd.Parameters.AddWithValue("@car_model", txtCarModel.Text)
                     cmd.Parameters.AddWithValue("@renter_name", txtRenterName.Text)
                     cmd.Parameters.AddWithValue("@start_date", dtpStartDate.Value.Date)
