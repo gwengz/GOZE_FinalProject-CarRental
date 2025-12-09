@@ -87,7 +87,7 @@ Partial Class Form1
         Me.btnAdd.BackColor = System.Drawing.Color.Orange
         Me.btnAdd.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnAdd.Font = New System.Drawing.Font("Lucida Fax", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnAdd.Location = New System.Drawing.Point(446, 475)
+        Me.btnAdd.Location = New System.Drawing.Point(356, 475)
         Me.btnAdd.Margin = New System.Windows.Forms.Padding(4)
         Me.btnAdd.Name = "btnAdd"
         Me.btnAdd.Size = New System.Drawing.Size(101, 30)
@@ -100,7 +100,7 @@ Partial Class Form1
         Me.btnUpdate.BackColor = System.Drawing.Color.Orange
         Me.btnUpdate.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnUpdate.Font = New System.Drawing.Font("Lucida Fax", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnUpdate.Location = New System.Drawing.Point(555, 476)
+        Me.btnUpdate.Location = New System.Drawing.Point(465, 476)
         Me.btnUpdate.Margin = New System.Windows.Forms.Padding(4)
         Me.btnUpdate.Name = "btnUpdate"
         Me.btnUpdate.Size = New System.Drawing.Size(101, 30)
@@ -113,7 +113,7 @@ Partial Class Form1
         Me.btnDelete.BackColor = System.Drawing.Color.Orange
         Me.btnDelete.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnDelete.Font = New System.Drawing.Font("Lucida Fax", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnDelete.Location = New System.Drawing.Point(664, 475)
+        Me.btnDelete.Location = New System.Drawing.Point(574, 475)
         Me.btnDelete.Margin = New System.Windows.Forms.Padding(4)
         Me.btnDelete.Name = "btnDelete"
         Me.btnDelete.Size = New System.Drawing.Size(99, 30)
@@ -126,7 +126,7 @@ Partial Class Form1
         Me.btnLoad.BackColor = System.Drawing.Color.Orange
         Me.btnLoad.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnLoad.Font = New System.Drawing.Font("Lucida Fax", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnLoad.Location = New System.Drawing.Point(771, 476)
+        Me.btnLoad.Location = New System.Drawing.Point(681, 476)
         Me.btnLoad.Margin = New System.Windows.Forms.Padding(4)
         Me.btnLoad.Name = "btnLoad"
         Me.btnLoad.Size = New System.Drawing.Size(99, 30)
@@ -146,7 +146,7 @@ Partial Class Form1
         Me.dgvRentals.Name = "dgvRentals"
         Me.dgvRentals.ReadOnly = True
         Me.dgvRentals.RowHeadersWidth = 51
-        Me.dgvRentals.Size = New System.Drawing.Size(846, 187)
+        Me.dgvRentals.Size = New System.Drawing.Size(767, 187)
         Me.dgvRentals.TabIndex = 8
         '
         'Label1
@@ -218,7 +218,7 @@ Partial Class Form1
         'txtID
         '
         Me.txtID.Font = New System.Drawing.Font("Lucida Fax", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtID.Location = New System.Drawing.Point(500, 87)
+        Me.txtID.Location = New System.Drawing.Point(435, 13)
         Me.txtID.Margin = New System.Windows.Forms.Padding(4)
         Me.txtID.Name = "txtID"
         Me.txtID.Size = New System.Drawing.Size(345, 25)
@@ -274,7 +274,7 @@ Partial Class Form1
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.ClientSize = New System.Drawing.Size(892, 519)
+        Me.ClientSize = New System.Drawing.Size(796, 519)
         Me.Controls.Add(Me.Label8)
         Me.Controls.Add(Me.Label6)
         Me.Controls.Add(Me.Label7)
